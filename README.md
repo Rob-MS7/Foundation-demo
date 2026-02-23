@@ -7,13 +7,17 @@ The main purchase journey from login to completed order.
 Login works and fails the right way, adding an item updates the cart, the checkout totals add up, and the confirmation screen appears at the end.
 
 Setup:
+
 npm install
+
 npx playwright install
 
 Running the tests:
+
 npx playwright test
 
 Headed mode if you want to watch it run:
+
 npx playwright test --headed
 
 Report:
